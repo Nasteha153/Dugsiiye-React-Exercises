@@ -12,7 +12,6 @@ const TodoApp = () => {
   return (
     <TodoContext.Provider value={{ state, dispatch }}>
       <div>
-        <div></div>
         <h2>My Todo List</h2>
 
         <TodoForm />

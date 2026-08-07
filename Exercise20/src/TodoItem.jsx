@@ -13,7 +13,7 @@ const TodoItem = ({ todo }) => {
           onChange={() => dispatch({ type: 'toggle', payload: todo.id })}
         />
 
-        <span className={todo.completed ? styles.completed : styles.text}>
+        <span>
           {todo.text}
         </span>
       </div>
